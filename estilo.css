@@ -1,0 +1,294 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .con-principal {
+        background-color: #7a7a46;
+        margin: 0;
+    }
+    
+    .header {
+        background-color: #113;
+        color: blue;
+        height: 100px;
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+    }
+    
+    .header a {
+        text-decoration: none;
+        bottom: 60px;
+    }
+    
+    .logo-nav-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .navigation ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    .navigation ul li {
+        display: inline-block;
+    }
+    
+    .navigation ul li:hover {
+        display: inline-block;
+        border-radius: 5px;
+    }
+    
+    .navigation ul li a {
+        display: inline;
+        padding: 2rem;
+        margin-right: 10px;
+        letter-spacing: 2px;
+        transition: all 0.4s linear;
+        font-family: fantasy;
+        color: orange;
+    }
+    
+    .navigation ul li a:hover {
+        color: green;
+        border-radius: 5px;
+        transform: scaleY(5px, 30px) rotate(10px);
+    }
+    
+    .logo {
+        letter-spacing: 5px;
+        font-size: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .eslogan {
+        margin-left: 20px;
+        font-weight: bold;
+        color: limegreen;
+        border-style: double;
+        border-color: orange;
+        border-radius: 10px;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .seccion {
+        width: 100%;
+        background-color: goldenrod;
+    }
+    
+    .seccion {
+        padding-top: 150px;
+    }
+    
+    .titulo {
+        width: 100%;
+        text-align: center;
+        font-weight: bold;
+        margin: 30px;
+        font-size: 30px;
+    }
+    
+    .Articulos {
+        background-color: goldenrod;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .Articulos img {
+        width: 200px;
+        height: 260px;
+        border-radius: 40px;
+    }
+    
+    .Articulo1 img:hover {
+        background-image: #00008b;
+        transform: scaleY(5px, 30px) rotate(10px);
+    }
+    
+    .Articulo1 {
+        margin: 15px;
+    }
+    
+    .Articulo1 p {
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 10px;
+        letter-spacing: 2px;
+    }
+    
+    .aside {
+        width: 100%;
+        display: flex;
+    }
+    
+    .sobre-nosotros {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        background-color: goldenrod;
+    }
+    
+    .sobre-nosotros h2 {
+        text-align: center;
+        flex-direction: column;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 70px;
+        display: block;
+    }
+    
+    .sobre-nosotros p {
+        text-align: left;
+        margin-top: 30px;
+        font-weight: bold;
+    }
+    
+    .sociall {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .sociall .ar {
+        justify-content: center;
+        padding: 10px;
+        margin: 5px;
+        margin-top: 20px;
+    }
+    
+    .sociall img {
+        width: 200px;
+        height: 260px;
+        border-radius: 40px;
+        justify-content: center;
+        margin: 15px;
+    }
+    
+    .tendencia {
+        margin-left: 750px;
+        margin-top: 0px;
+        padding-top: 10px;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        color: forestgreen;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .sociall p {
+        text-align: center;
+        font-weight: bold;
+        color: black;
+        font-size: 15px;
+    }
+    
+    .footer {
+        background-color: bisque;
+        display: flex;
+        height: 160px;
+    }
+    
+    .publi {
+        background-color: gainsboro;
+        padding-right: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: auto;
+    }
+    
+    .p {
+        padding-left: 550px;
+        font-size: 14px;
+        margin-top: 70px;
+        color: #7a7a7a;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500px;
+    }
+    
+    .pp {
+        padding-left: 550px;
+        font-size: 14px;
+        padding-top: 10px;
+        margin-top: 10px;
+        color: #7a7a7a;
+        font-weight: 500px;
+    }
+    
+    .correo a {
+        color: blue;
+        text-decoration: none;
+        font-size: 16px;
+        margin-top: -500px;
+        transition: all 0.4s linear;
+        padding-top: -200px;
+    }
+    
+    .correo a:hover {
+        color: #111;
+    }
+    
+    .footer .publi .social {
+        margin-left: 130px;
+        justify-content: top;
+        margin-top: -55px;
+        letter-spacing: 10px;
+    }
+    
+    .footer .publi .social .ico {
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        padding-bottom: 5px;
+        transition: all 0.4s linear;
+    }
+    
+    .footer .publi .social .ico :hover {
+        color: cornflowerblue;
+    }
+    
+    .pie-pag {
+        background-color: gainsboro;
+        width: 600px;
+        height: 160px;
+        display: flex;
+        display: inline-block;
+    }
+    
+    .pie-pag p {
+        margin-top: 100px;
+        display: flex;
+    }
+    
+    .pie-pag img {
+        margin-left: 400px;
+        justify-content: start;
+        margin-top: -95px;
+    }
+    
+    .copy {
+        font-size: 14px;
+        padding: 0 10px;
+        margin: auto;
+        text-align: left;
+    }
+    
+    @media all and(max-width:800px) {
+        .seccion {
+            flex-direction: column;
+        }
+        .menu {
+            flex-direction: column;
+            height: auto;
+        }
+    }
